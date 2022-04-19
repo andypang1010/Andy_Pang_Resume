@@ -1,0 +1,34 @@
+\documentclass[12pt, a4paper]{awesome-cv}
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+\fontdir[fonts/]
+\colorlet{awesome}{awesome-red}
+
+\setbool{acvSectionColorHighlight}{true}
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+\name{Andy}{Pang}
+\position{Software Developer{\enskip\cdotp\enskip}Game Engineer}
+\address{423B, Toni Morrison Hall, 18 Sisson Place, Ithaca, New York, 14853, United States}
+
+\mobile{(347) 556-3499}
+\email{cp487@cornell.edu}
+\homepage{www.andypzs1010.com}
+\github{andypang1010}
+\linkedin{andypzs1010}
+
+\begin{document}
+
+\makecvheader[C]
+
+\makecvfooter
+  {\today}
+  {Andy Pang~~~·~~~Résumé}
+  {\thepage}
+
+\input{resume/summary.tex}
+\input{resume/education.tex}
+\input{resume/experience.tex}
+\input{resume/projects.tex}
+
+\end{document}
